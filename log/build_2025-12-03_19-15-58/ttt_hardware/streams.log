@@ -1,0 +1,20 @@
+[0.026s] Invoking command in '/home/shai/ros2_ttt_robot/build/ttt_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy /usr/bin/cmake --build /home/shai/ros2_ttt_robot/build/ttt_hardware -- -j4 -l4
+[0.114s] Invoked command in '/home/shai/ros2_ttt_robot/build/ttt_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy /usr/bin/cmake --build /home/shai/ros2_ttt_robot/build/ttt_hardware -- -j4 -l4
+[0.136s] Invoking command in '/home/shai/ros2_ttt_robot/build/ttt_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy /usr/bin/cmake --install /home/shai/ros2_ttt_robot/build/ttt_hardware
+[0.157s] -- Install configuration: ""
+[0.157s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ament_index/resource_index/package_run_dependencies/ttt_hardware
+[0.157s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ament_index/resource_index/parent_prefix_path/ttt_hardware
+[0.157s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/environment/ament_prefix_path.sh
+[0.157s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/environment/ament_prefix_path.dsv
+[0.158s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/environment/path.sh
+[0.158s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/environment/path.dsv
+[0.158s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/local_setup.bash
+[0.158s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/local_setup.sh
+[0.161s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/local_setup.zsh
+[0.161s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/local_setup.dsv
+[0.161s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/package.dsv
+[0.161s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ament_index/resource_index/packages/ttt_hardware
+[0.162s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/cmake/ttt_hardwareConfig.cmake
+[0.162s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/cmake/ttt_hardwareConfig-version.cmake
+[0.162s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/package.xml
+[0.162s] Invoked command in '/home/shai/ros2_ttt_robot/build/ttt_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy /usr/bin/cmake --install /home/shai/ros2_ttt_robot/build/ttt_hardware

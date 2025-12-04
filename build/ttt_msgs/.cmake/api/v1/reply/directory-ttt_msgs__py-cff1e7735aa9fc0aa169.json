@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ttt_msgs__py",
+		"source" : "/home/shai/ros2_ttt_robot/build/ttt_msgs/ttt_msgs__py"
+	}
+}

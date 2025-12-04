@@ -1,0 +1,542 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ttt_msgs/action/DrawSymbol",
+      "fields": [
+        {
+          "name": "goal",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ttt_msgs/action/DrawSymbol_Goal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ttt_msgs/action/DrawSymbol_Result"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ttt_msgs/action/DrawSymbol_Feedback"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "send_goal_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ttt_msgs/action/DrawSymbol_SendGoal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "get_result_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ttt_msgs/action/DrawSymbol_GetResult"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ttt_msgs/action/DrawSymbol_FeedbackMessage"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawSymbol_Feedback",
+        "fields": [
+          {
+            "name": "progress",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawSymbol_FeedbackMessage",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "feedback",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawSymbol_Feedback"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawSymbol_GetResult",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawSymbol_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawSymbol_GetResult_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawSymbol_GetResult_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawSymbol_GetResult_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawSymbol_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawSymbol_GetResult_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawSymbol_GetResult_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawSymbol_GetResult_Response",
+        "fields": [
+          {
+            "name": "status",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "result",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawSymbol_Result"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawSymbol_Goal",
+        "fields": [
+          {
+            "name": "cell_index",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "symbol",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawSymbol_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "message",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawSymbol_SendGoal",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawSymbol_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawSymbol_SendGoal_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawSymbol_SendGoal_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawSymbol_SendGoal_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawSymbol_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawSymbol_SendGoal_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawSymbol_SendGoal_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "goal",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawSymbol_Goal"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawSymbol_SendGoal_Response",
+        "fields": [
+          {
+            "name": "accepted",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "ttt_msgs/action/DrawSymbol",
+      "hash_string": "RIHS01_9f06ed59c91302de73fd6bba69fa81666ecd84f3afb3d3d1cc841000d1b9a4f4"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawSymbol_Feedback",
+      "hash_string": "RIHS01_35bbfa88baf255f6a6ef0c32868e724b87c9f2a52de8926fed2612efe4867dc4"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawSymbol_FeedbackMessage",
+      "hash_string": "RIHS01_3f1c7c9c9ed01079aaf60a263c6317c69c1cbef7bb027bc2d5abb1d509c7bf9d"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawSymbol_GetResult",
+      "hash_string": "RIHS01_8fcb28a7cd7c83d85a7cfde0b5ee598690763d2fc51038761e2e6f800bb5ad33"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawSymbol_GetResult_Event",
+      "hash_string": "RIHS01_6f0ffb1d55a58de7ce592e230c2bae8f864ae430296d2a15b740e46f7aabf520"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawSymbol_GetResult_Request",
+      "hash_string": "RIHS01_b6c1b378faf6455874ba74d939aa9cafdb8a55c714280285c9a3794a929bcc73"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawSymbol_GetResult_Response",
+      "hash_string": "RIHS01_fd9a96c6cf58f6ad9166f403ccac93c8772136d90b8df3a49798406d05710552"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawSymbol_Goal",
+      "hash_string": "RIHS01_965b1a0d3eba74adeb46a955711c4a8655ec4963fc6689eb62e50c1dea695e47"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawSymbol_Result",
+      "hash_string": "RIHS01_daab39d86131e0a233676cc8869cf4cf18654ebcf1d8cedb37d030d39e4ad8c5"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawSymbol_SendGoal",
+      "hash_string": "RIHS01_54258b9f8175abf14fe6f20d66d91d7928e1a80cd608bc1bfc42480d4a79a526"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawSymbol_SendGoal_Event",
+      "hash_string": "RIHS01_595ea4cbd874f5c80d7c67c2c9f5c72d9e1f453d01cb98f99edee236a1ef00e5"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawSymbol_SendGoal_Request",
+      "hash_string": "RIHS01_f1f88717aab37621604e7dc6495c2abeadcd888bad60357ce2f3a7957b8b8401"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawSymbol_SendGoal_Response",
+      "hash_string": "RIHS01_a0a87f8e686e528f9263fe328b70cecd10a0a549c89d8646067ecb0cb23c7802"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ttt_msgs/action/DrawGrid_FeedbackMessage",
+      "fields": [
+        {
+          "name": "goal_id",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "unique_identifier_msgs/msg/UUID"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ttt_msgs/action/DrawGrid_Feedback"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "ttt_msgs/action/DrawGrid_Feedback",
+        "fields": [
+          {
+            "name": "progress",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "ttt_msgs/action/DrawGrid_FeedbackMessage",
+      "hash_string": "RIHS01_c193a9fe26bb9bfc1e6f64bdfe3b851fa8fd630e66b8e7a333f8081d15d30e39"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawGrid_Feedback",
+      "hash_string": "RIHS01_1e723fccad7b2ff0945b7d3d74520ff1d2e6e7cb84cd355c1503916540c3ba46"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ttt_msgs/action/GoHome_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ttt_msgs/action/GoHome_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "ttt_msgs/action/GoHome_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "message",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "ttt_msgs/action/GoHome_GetResult_Response",
+      "hash_string": "RIHS01_1d4942a1e2193047706ca2f9c85830691f9ebff48f14f76291bc79eae25efb7c"
+    },
+    {
+      "type_name": "ttt_msgs/action/GoHome_Result",
+      "hash_string": "RIHS01_7796a4f7f4eb2fc3aeb3fde2f74d0de0d8a03d0fd69ada40f48834f4d3437565"
+    }
+  ]
+}

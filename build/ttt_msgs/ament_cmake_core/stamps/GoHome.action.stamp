@@ -1,0 +1,10 @@
+# Goal
+# (empty)
+---
+# Result
+bool success
+string message
+---
+# Feedback
+float32 progress   # 0.0 .. 1.0
+

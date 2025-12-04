@@ -1,0 +1,17 @@
+{
+  "package_name": "ttt_msgs",
+  "output_dir": "/home/shai/ros2_ttt_robot/build/ttt_msgs/rosidl_generator_type_description/ttt_msgs",
+  "idl_tuples": [
+    "/home/shai/ros2_ttt_robot/build/ttt_msgs/rosidl_adapter/ttt_msgs:msg/GameState.idl",
+    "/home/shai/ros2_ttt_robot/build/ttt_msgs/rosidl_adapter/ttt_msgs:msg/Move.idl",
+    "/home/shai/ros2_ttt_robot/build/ttt_msgs/rosidl_adapter/ttt_msgs:action/DrawSymbol.idl",
+    "/home/shai/ros2_ttt_robot/build/ttt_msgs/rosidl_adapter/ttt_msgs:action/DrawGrid.idl",
+    "/home/shai/ros2_ttt_robot/build/ttt_msgs/rosidl_adapter/ttt_msgs:action/GoHome.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ttt_msgs/action/DrawGrid",
+      "fields": [
+        {
+          "name": "goal",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ttt_msgs/action/DrawGrid_Goal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ttt_msgs/action/DrawGrid_Result"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ttt_msgs/action/DrawGrid_Feedback"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "send_goal_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ttt_msgs/action/DrawGrid_SendGoal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "get_result_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ttt_msgs/action/DrawGrid_GetResult"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ttt_msgs/action/DrawGrid_FeedbackMessage"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawGrid_Feedback",
+        "fields": [
+          {
+            "name": "progress",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawGrid_FeedbackMessage",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "feedback",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawGrid_Feedback"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawGrid_GetResult",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawGrid_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawGrid_GetResult_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawGrid_GetResult_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawGrid_GetResult_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawGrid_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawGrid_GetResult_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawGrid_GetResult_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawGrid_GetResult_Response",
+        "fields": [
+          {
+            "name": "status",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "result",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawGrid_Result"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawGrid_Goal",
+        "fields": [
+          {
+            "name": "structure_needs_at_least_one_member",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawGrid_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "message",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawGrid_SendGoal",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawGrid_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawGrid_SendGoal_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawGrid_SendGoal_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawGrid_SendGoal_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawGrid_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawGrid_SendGoal_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawGrid_SendGoal_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "goal",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ttt_msgs/action/DrawGrid_Goal"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ttt_msgs/action/DrawGrid_SendGoal_Response",
+        "fields": [
+          {
+            "name": "accepted",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "ttt_msgs/action/DrawGrid",
+      "hash_string": "RIHS01_ce8eeffd3efc9a61209c97095c811f7f979229205938b0f097e031c45c79aaf4"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawGrid_Feedback",
+      "hash_string": "RIHS01_1e723fccad7b2ff0945b7d3d74520ff1d2e6e7cb84cd355c1503916540c3ba46"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawGrid_FeedbackMessage",
+      "hash_string": "RIHS01_c193a9fe26bb9bfc1e6f64bdfe3b851fa8fd630e66b8e7a333f8081d15d30e39"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawGrid_GetResult",
+      "hash_string": "RIHS01_36107dbcd674357b98a13e225b543b5382ae5201007f3954390615ef7996eb47"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawGrid_GetResult_Event",
+      "hash_string": "RIHS01_591e9f9202831a2e1c0b72861622ed3dfad6789132dd817f68982aaa71eb492a"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawGrid_GetResult_Request",
+      "hash_string": "RIHS01_d5554cb63c4fc6e7e485216745a20a56e0d3fc731d2fd16993ec0372237c06b3"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawGrid_GetResult_Response",
+      "hash_string": "RIHS01_dae8eae2d2f87cfd266d5cc5aef01e6ea0cf7d25b3f445ed15162dbee3ba5d4e"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawGrid_Goal",
+      "hash_string": "RIHS01_49c29a7d3ce2ef2489e79df7fb9649a00035bbf7b375b99e116405489f48b6ee"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawGrid_Result",
+      "hash_string": "RIHS01_9cb37763fba59cd4dd12fb3cd677c5c9a1cc2efc554905db2a2f3e42d680ef1b"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawGrid_SendGoal",
+      "hash_string": "RIHS01_0d46faf97bb9d3f657c3dbbabe0cdaf97bba7ac31d1265e5f370f6814f0a8bca"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawGrid_SendGoal_Event",
+      "hash_string": "RIHS01_46f44423f3fd6040bf6f2d499e8ca4542f8a457e55db02d8ba5aa130f722ef9b"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawGrid_SendGoal_Request",
+      "hash_string": "RIHS01_72631d3385b99683d7d76b703e6e78004c0fb3346834413b76a3882cc817740c"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawGrid_SendGoal_Response",
+      "hash_string": "RIHS01_68701787b496e99daea8041ca9fe85b68357af01cd0174305ac972ab92117b37"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}

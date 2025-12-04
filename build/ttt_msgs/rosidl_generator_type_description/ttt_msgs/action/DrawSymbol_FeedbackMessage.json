@@ -1,0 +1,75 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ttt_msgs/action/DrawSymbol_FeedbackMessage",
+      "fields": [
+        {
+          "name": "goal_id",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "unique_identifier_msgs/msg/UUID"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ttt_msgs/action/DrawSymbol_Feedback"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "ttt_msgs/action/DrawSymbol_Feedback",
+        "fields": [
+          {
+            "name": "progress",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "ttt_msgs/action/DrawSymbol_FeedbackMessage",
+      "hash_string": "RIHS01_3f1c7c9c9ed01079aaf60a263c6317c69c1cbef7bb027bc2d5abb1d509c7bf9d"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawSymbol_Feedback",
+      "hash_string": "RIHS01_35bbfa88baf255f6a6ef0c32868e724b87c9f2a52de8926fed2612efe4867dc4"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}

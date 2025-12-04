@@ -1,0 +1,20 @@
+[0.029s] Invoking command in '/home/shai/ros2_ttt_robot/build/ttt_game': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy /usr/bin/cmake --build /home/shai/ros2_ttt_robot/build/ttt_game -- -j4 -l4
+[0.146s] Invoked command in '/home/shai/ros2_ttt_robot/build/ttt_game' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy /usr/bin/cmake --build /home/shai/ros2_ttt_robot/build/ttt_game -- -j4 -l4
+[0.148s] Invoking command in '/home/shai/ros2_ttt_robot/build/ttt_game': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy /usr/bin/cmake --install /home/shai/ros2_ttt_robot/build/ttt_game
+[0.177s] -- Install configuration: ""
+[0.177s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ament_index/resource_index/package_run_dependencies/ttt_game
+[0.177s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ament_index/resource_index/parent_prefix_path/ttt_game
+[0.177s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/environment/ament_prefix_path.sh
+[0.178s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/environment/ament_prefix_path.dsv
+[0.178s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/environment/path.sh
+[0.178s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/environment/path.dsv
+[0.178s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/local_setup.bash
+[0.178s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/local_setup.sh
+[0.178s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/local_setup.zsh
+[0.179s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/local_setup.dsv
+[0.179s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/package.dsv
+[0.179s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ament_index/resource_index/packages/ttt_game
+[0.179s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/cmake/ttt_gameConfig.cmake
+[0.179s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/cmake/ttt_gameConfig-version.cmake
+[0.179s] -- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/package.xml
+[0.242s] Invoked command in '/home/shai/ros2_ttt_robot/build/ttt_game' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy /usr/bin/cmake --install /home/shai/ros2_ttt_robot/build/ttt_game

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ttt_msgs/action/GoHome_Goal",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "ttt_msgs/action/GoHome_Goal",
+      "hash_string": "RIHS01_ed19df19315a3df7d6c911c89a0d2e509ef35a7454aa8f8bf51a5b0d9d7e5107"
+    }
+  ]
+}

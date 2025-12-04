@@ -1,0 +1,678 @@
+[0.000000] (-) TimerEvent: {}
+[0.000380] (ttt_game) JobQueued: {'identifier': 'ttt_game', 'dependencies': OrderedDict()}
+[0.000709] (ttt_hardware) JobQueued: {'identifier': 'ttt_hardware', 'dependencies': OrderedDict()}
+[0.000736] (ttt_motion) JobQueued: {'identifier': 'ttt_motion', 'dependencies': OrderedDict()}
+[0.000757] (ttt_msgs) JobQueued: {'identifier': 'ttt_msgs', 'dependencies': OrderedDict()}
+[0.000892] (ttt_game) JobStarted: {'identifier': 'ttt_game'}
+[0.008070] (ttt_hardware) JobStarted: {'identifier': 'ttt_hardware'}
+[0.012957] (ttt_motion) JobStarted: {'identifier': 'ttt_motion'}
+[0.017866] (ttt_msgs) JobStarted: {'identifier': 'ttt_msgs'}
+[0.024943] (ttt_game) JobProgress: {'identifier': 'ttt_game', 'progress': 'cmake'}
+[0.026106] (ttt_game) JobProgress: {'identifier': 'ttt_game', 'progress': 'build'}
+[0.026899] (ttt_game) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shai/ros2_ttt_robot/build/ttt_game', '--', '-j4', '-l4'], 'cwd': '/home/shai/ros2_ttt_robot/build/ttt_game', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shai', 'SSH_CLIENT': '2a00:c281:1438:df00:3506:da47:e870:8b93 54702 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shai', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/shai/ros2_ttt_robot/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', '_CONDA_ROOT': '/home/shai/miniconda3', 'COLCON_PREFIX_PATH': '/home/shai/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shai', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '557', '_CE_CONDA': '', 'PATH': '/home/shai/miniconda3/condabin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/shai/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', '_CONDA_EXE': '/home/shai/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shai/ros2_ttt_robot/build/ttt_game', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/home/shai/miniconda3/bin/conda', 'SSH_CONNECTION': '2a00:c281:1438:df00:3506:da47:e870:8b93 54702 2a00:c281:1438:df00:2ecf:67ff:fe84:5ff1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shai/ros2_ws/install/stepper_driver/lib/python3.12/site-packages:/home/shai/ros2_ws/install/poti_serial/lib/python3.12/site-packages:/home/shai/ros2_ws/install/poti_mapper/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy'}), 'shell': False}
+[0.030765] (ttt_hardware) JobProgress: {'identifier': 'ttt_hardware', 'progress': 'cmake'}
+[0.031878] (ttt_hardware) JobProgress: {'identifier': 'ttt_hardware', 'progress': 'build'}
+[0.032209] (ttt_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shai/ros2_ttt_robot/build/ttt_hardware', '--', '-j4', '-l4'], 'cwd': '/home/shai/ros2_ttt_robot/build/ttt_hardware', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shai', 'SSH_CLIENT': '2a00:c281:1438:df00:3506:da47:e870:8b93 54702 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shai', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/shai/ros2_ttt_robot/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', '_CONDA_ROOT': '/home/shai/miniconda3', 'COLCON_PREFIX_PATH': '/home/shai/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shai', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '557', '_CE_CONDA': '', 'PATH': '/home/shai/miniconda3/condabin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/shai/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', '_CONDA_EXE': '/home/shai/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shai/ros2_ttt_robot/build/ttt_hardware', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/home/shai/miniconda3/bin/conda', 'SSH_CONNECTION': '2a00:c281:1438:df00:3506:da47:e870:8b93 54702 2a00:c281:1438:df00:2ecf:67ff:fe84:5ff1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shai/ros2_ws/install/stepper_driver/lib/python3.12/site-packages:/home/shai/ros2_ws/install/poti_serial/lib/python3.12/site-packages:/home/shai/ros2_ws/install/poti_mapper/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy'}), 'shell': False}
+[0.035272] (ttt_motion) JobProgress: {'identifier': 'ttt_motion', 'progress': 'cmake'}
+[0.038657] (ttt_motion) JobProgress: {'identifier': 'ttt_motion', 'progress': 'build'}
+[0.040148] (ttt_motion) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shai/ros2_ttt_robot/build/ttt_motion', '--', '-j4', '-l4'], 'cwd': '/home/shai/ros2_ttt_robot/build/ttt_motion', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shai', 'SSH_CLIENT': '2a00:c281:1438:df00:3506:da47:e870:8b93 54702 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shai', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/shai/ros2_ttt_robot/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', '_CONDA_ROOT': '/home/shai/miniconda3', 'COLCON_PREFIX_PATH': '/home/shai/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shai', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '557', '_CE_CONDA': '', 'PATH': '/home/shai/miniconda3/condabin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/shai/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', '_CONDA_EXE': '/home/shai/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shai/ros2_ttt_robot/build/ttt_motion', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/home/shai/miniconda3/bin/conda', 'SSH_CONNECTION': '2a00:c281:1438:df00:3506:da47:e870:8b93 54702 2a00:c281:1438:df00:2ecf:67ff:fe84:5ff1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shai/ros2_ws/install/stepper_driver/lib/python3.12/site-packages:/home/shai/ros2_ws/install/poti_serial/lib/python3.12/site-packages:/home/shai/ros2_ws/install/poti_mapper/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy'}), 'shell': False}
+[0.047716] (ttt_msgs) JobProgress: {'identifier': 'ttt_msgs', 'progress': 'cmake'}
+[0.050209] (ttt_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/shai/ros2_ttt_robot/src/ttt_msgs', '-DCMAKE_INSTALL_PREFIX=/home/shai/ros2_ttt_robot/install/ttt_msgs'], 'cwd': '/home/shai/ros2_ttt_robot/build/ttt_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shai', 'SSH_CLIENT': '2a00:c281:1438:df00:3506:da47:e870:8b93 54702 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shai', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/shai/ros2_ttt_robot/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', '_CONDA_ROOT': '/home/shai/miniconda3', 'COLCON_PREFIX_PATH': '/home/shai/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shai', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '557', '_CE_CONDA': '', 'PATH': '/home/shai/miniconda3/condabin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/shai/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', '_CONDA_EXE': '/home/shai/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shai/ros2_ttt_robot/build/ttt_msgs', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/home/shai/miniconda3/bin/conda', 'SSH_CONNECTION': '2a00:c281:1438:df00:3506:da47:e870:8b93 54702 2a00:c281:1438:df00:2ecf:67ff:fe84:5ff1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shai/ros2_ws/install/stepper_driver/lib/python3.12/site-packages:/home/shai/ros2_ws/install/poti_serial/lib/python3.12/site-packages:/home/shai/ros2_ws/install/poti_mapper/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy'}), 'shell': False}
+[0.081281] (ttt_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099747] (-) TimerEvent: {}
+[0.122081] (ttt_hardware) CommandEnded: {'returncode': 0}
+[0.123350] (ttt_hardware) JobProgress: {'identifier': 'ttt_hardware', 'progress': 'install'}
+[0.142987] (ttt_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shai/ros2_ttt_robot/build/ttt_hardware'], 'cwd': '/home/shai/ros2_ttt_robot/build/ttt_hardware', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shai', 'SSH_CLIENT': '2a00:c281:1438:df00:3506:da47:e870:8b93 54702 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shai', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/shai/ros2_ttt_robot/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', '_CONDA_ROOT': '/home/shai/miniconda3', 'COLCON_PREFIX_PATH': '/home/shai/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shai', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '557', '_CE_CONDA': '', 'PATH': '/home/shai/miniconda3/condabin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/shai/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', '_CONDA_EXE': '/home/shai/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shai/ros2_ttt_robot/build/ttt_hardware', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/home/shai/miniconda3/bin/conda', 'SSH_CONNECTION': '2a00:c281:1438:df00:3506:da47:e870:8b93 54702 2a00:c281:1438:df00:2ecf:67ff:fe84:5ff1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shai/ros2_ws/install/stepper_driver/lib/python3.12/site-packages:/home/shai/ros2_ws/install/poti_serial/lib/python3.12/site-packages:/home/shai/ros2_ws/install/poti_mapper/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy'}), 'shell': False}
+[0.146004] (ttt_game) CommandEnded: {'returncode': 0}
+[0.148889] (ttt_game) JobProgress: {'identifier': 'ttt_game', 'progress': 'install'}
+[0.148976] (ttt_game) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shai/ros2_ttt_robot/build/ttt_game'], 'cwd': '/home/shai/ros2_ttt_robot/build/ttt_game', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shai', 'SSH_CLIENT': '2a00:c281:1438:df00:3506:da47:e870:8b93 54702 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shai', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/shai/ros2_ttt_robot/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', '_CONDA_ROOT': '/home/shai/miniconda3', 'COLCON_PREFIX_PATH': '/home/shai/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shai', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '557', '_CE_CONDA': '', 'PATH': '/home/shai/miniconda3/condabin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/shai/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', '_CONDA_EXE': '/home/shai/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shai/ros2_ttt_robot/build/ttt_game', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/home/shai/miniconda3/bin/conda', 'SSH_CONNECTION': '2a00:c281:1438:df00:3506:da47:e870:8b93 54702 2a00:c281:1438:df00:2ecf:67ff:fe84:5ff1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shai/ros2_ws/install/stepper_driver/lib/python3.12/site-packages:/home/shai/ros2_ws/install/poti_serial/lib/python3.12/site-packages:/home/shai/ros2_ws/install/poti_mapper/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy'}), 'shell': False}
+[0.153320] (ttt_motion) CommandEnded: {'returncode': 0}
+[0.153989] (ttt_motion) JobProgress: {'identifier': 'ttt_motion', 'progress': 'install'}
+[0.154034] (ttt_motion) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shai/ros2_ttt_robot/build/ttt_motion'], 'cwd': '/home/shai/ros2_ttt_robot/build/ttt_motion', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shai', 'SSH_CLIENT': '2a00:c281:1438:df00:3506:da47:e870:8b93 54702 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shai', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/shai/ros2_ttt_robot/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', '_CONDA_ROOT': '/home/shai/miniconda3', 'COLCON_PREFIX_PATH': '/home/shai/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shai', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '557', '_CE_CONDA': '', 'PATH': '/home/shai/miniconda3/condabin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/shai/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', '_CONDA_EXE': '/home/shai/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shai/ros2_ttt_robot/build/ttt_motion', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/home/shai/miniconda3/bin/conda', 'SSH_CONNECTION': '2a00:c281:1438:df00:3506:da47:e870:8b93 54702 2a00:c281:1438:df00:2ecf:67ff:fe84:5ff1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shai/ros2_ws/install/stepper_driver/lib/python3.12/site-packages:/home/shai/ros2_ws/install/poti_serial/lib/python3.12/site-packages:/home/shai/ros2_ws/install/poti_mapper/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy'}), 'shell': False}
+[0.164052] (ttt_hardware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.165223] (ttt_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ament_index/resource_index/package_run_dependencies/ttt_hardware\n'}
+[0.165386] (ttt_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ament_index/resource_index/parent_prefix_path/ttt_hardware\n'}
+[0.165518] (ttt_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/environment/ament_prefix_path.sh\n'}
+[0.165622] (ttt_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/environment/ament_prefix_path.dsv\n'}
+[0.165717] (ttt_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/environment/path.sh\n'}
+[0.165807] (ttt_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/environment/path.dsv\n'}
+[0.165894] (ttt_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/local_setup.bash\n'}
+[0.165983] (ttt_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/local_setup.sh\n'}
+[0.166071] (ttt_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/local_setup.zsh\n'}
+[0.169356] (ttt_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/local_setup.dsv\n'}
+[0.169498] (ttt_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/package.dsv\n'}
+[0.169608] (ttt_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ament_index/resource_index/packages/ttt_hardware\n'}
+[0.169709] (ttt_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/cmake/ttt_hardwareConfig.cmake\n'}
+[0.169800] (ttt_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/cmake/ttt_hardwareConfig-version.cmake\n'}
+[0.169890] (ttt_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_hardware/share/ttt_hardware/package.xml\n'}
+[0.169982] (ttt_hardware) CommandEnded: {'returncode': 0}
+[0.170544] (ttt_motion) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.170792] (ttt_motion) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_motion/share/ament_index/resource_index/package_run_dependencies/ttt_motion\n'}
+[0.170930] (ttt_motion) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_motion/share/ament_index/resource_index/parent_prefix_path/ttt_motion\n'}
+[0.171038] (ttt_motion) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_motion/share/ttt_motion/environment/ament_prefix_path.sh\n'}
+[0.171189] (ttt_motion) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_motion/share/ttt_motion/environment/ament_prefix_path.dsv\n'}
+[0.171403] (ttt_motion) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_motion/share/ttt_motion/environment/path.sh\n'}
+[0.171584] (ttt_motion) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_motion/share/ttt_motion/environment/path.dsv\n'}
+[0.171683] (ttt_motion) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_motion/share/ttt_motion/local_setup.bash\n'}
+[0.171777] (ttt_motion) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_motion/share/ttt_motion/local_setup.sh\n'}
+[0.171889] (ttt_motion) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_motion/share/ttt_motion/local_setup.zsh\n'}
+[0.172016] (ttt_motion) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_motion/share/ttt_motion/local_setup.dsv\n'}
+[0.175400] (ttt_motion) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_motion/share/ttt_motion/package.dsv\n'}
+[0.175626] (ttt_motion) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_motion/share/ament_index/resource_index/packages/ttt_motion\n'}
+[0.175802] (ttt_motion) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_motion/share/ttt_motion/cmake/ttt_motionConfig.cmake\n'}
+[0.175925] (ttt_motion) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_motion/share/ttt_motion/cmake/ttt_motionConfig-version.cmake\n'}
+[0.176140] (ttt_motion) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_motion/share/ttt_motion/package.xml\n'}
+[0.177514] (ttt_game) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.177825] (ttt_game) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ament_index/resource_index/package_run_dependencies/ttt_game\n'}
+[0.177981] (ttt_game) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ament_index/resource_index/parent_prefix_path/ttt_game\n'}
+[0.178139] (ttt_game) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/environment/ament_prefix_path.sh\n'}
+[0.178351] (ttt_game) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/environment/ament_prefix_path.dsv\n'}
+[0.178496] (ttt_game) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/environment/path.sh\n'}
+[0.178657] (ttt_game) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/environment/path.dsv\n'}
+[0.178784] (ttt_game) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/local_setup.bash\n'}
+[0.178898] (ttt_game) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/local_setup.sh\n'}
+[0.179008] (ttt_game) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/local_setup.zsh\n'}
+[0.179528] (ttt_game) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/local_setup.dsv\n'}
+[0.179687] (ttt_game) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/package.dsv\n'}
+[0.179862] (ttt_game) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ament_index/resource_index/packages/ttt_game\n'}
+[0.179991] (ttt_game) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/cmake/ttt_gameConfig.cmake\n'}
+[0.180078] (ttt_game) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/cmake/ttt_gameConfig-version.cmake\n'}
+[0.180223] (ttt_game) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/package.xml\n'}
+[0.199877] (-) TimerEvent: {}
+[0.211876] (ttt_hardware) JobEnded: {'identifier': 'ttt_hardware', 'rc': 0}
+[0.213920] (ttt_motion) CommandEnded: {'returncode': 0}
+[0.240546] (ttt_motion) JobEnded: {'identifier': 'ttt_motion', 'rc': 0}
+[0.242648] (ttt_game) CommandEnded: {'returncode': 0}
+[0.270182] (ttt_game) JobEnded: {'identifier': 'ttt_game', 'rc': 0}
+[0.299965] (-) TimerEvent: {}
+[0.400287] (-) TimerEvent: {}
+[0.450165] (ttt_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.454785] (ttt_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500400] (-) TimerEvent: {}
+[0.500717] (ttt_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.540616] (ttt_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.600504] (-) TimerEvent: {}
+[0.700824] (-) TimerEvent: {}
+[0.801146] (-) TimerEvent: {}
+[0.901477] (-) TimerEvent: {}
+[1.001797] (-) TimerEvent: {}
+[1.102179] (-) TimerEvent: {}
+[1.202564] (-) TimerEvent: {}
+[1.302893] (-) TimerEvent: {}
+[1.403270] (-) TimerEvent: {}
+[1.503605] (-) TimerEvent: {}
+[1.561467] (ttt_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.603730] (-) TimerEvent: {}
+[1.704116] (-) TimerEvent: {}
+[1.804521] (-) TimerEvent: {}
+[1.904906] (-) TimerEvent: {}
+[2.005270] (-) TimerEvent: {}
+[2.105610] (-) TimerEvent: {}
+[2.205988] (-) TimerEvent: {}
+[2.246643] (ttt_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.306069] (-) TimerEvent: {}
+[2.406394] (-) TimerEvent: {}
+[2.506715] (-) TimerEvent: {}
+[2.607029] (-) TimerEvent: {}
+[2.712592] (-) TimerEvent: {}
+[2.812940] (-) TimerEvent: {}
+[2.913348] (-) TimerEvent: {}
+[3.013742] (-) TimerEvent: {}
+[3.114074] (-) TimerEvent: {}
+[3.135956] (ttt_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.143207] (ttt_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.214189] (-) TimerEvent: {}
+[3.314598] (-) TimerEvent: {}
+[3.352864] (ttt_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.414684] (-) TimerEvent: {}
+[3.514998] (-) TimerEvent: {}
+[3.615390] (-) TimerEvent: {}
+[3.715725] (-) TimerEvent: {}
+[3.816070] (-) TimerEvent: {}
+[3.916392] (-) TimerEvent: {}
+[4.016730] (-) TimerEvent: {}
+[4.117060] (-) TimerEvent: {}
+[4.217427] (-) TimerEvent: {}
+[4.291463] (ttt_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.317518] (-) TimerEvent: {}
+[4.364876] (ttt_msgs) StdoutLine: {'line': b'-- Configuring done (4.3s)\n'}
+[4.417622] (-) TimerEvent: {}
+[4.448194] (ttt_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[4.467143] (ttt_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/shai/ros2_ttt_robot/build/ttt_msgs\n'}
+[4.481645] (ttt_msgs) CommandEnded: {'returncode': 0}
+[4.482320] (ttt_msgs) JobProgress: {'identifier': 'ttt_msgs', 'progress': 'build'}
+[4.483442] (ttt_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shai/ros2_ttt_robot/build/ttt_msgs', '--', '-j4', '-l4'], 'cwd': '/home/shai/ros2_ttt_robot/build/ttt_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shai', 'SSH_CLIENT': '2a00:c281:1438:df00:3506:da47:e870:8b93 54702 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shai', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/shai/ros2_ttt_robot/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', '_CONDA_ROOT': '/home/shai/miniconda3', 'COLCON_PREFIX_PATH': '/home/shai/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shai', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '557', '_CE_CONDA': '', 'PATH': '/home/shai/miniconda3/condabin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/shai/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', '_CONDA_EXE': '/home/shai/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shai/ros2_ttt_robot/build/ttt_msgs', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/home/shai/miniconda3/bin/conda', 'SSH_CONNECTION': '2a00:c281:1438:df00:3506:da47:e870:8b93 54702 2a00:c281:1438:df00:2ecf:67ff:fe84:5ff1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shai/ros2_ws/install/stepper_driver/lib/python3.12/site-packages:/home/shai/ros2_ws/install/poti_serial/lib/python3.12/site-packages:/home/shai/ros2_ws/install/poti_mapper/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy'}), 'shell': False}
+[4.517729] (-) TimerEvent: {}
+[4.571721] (ttt_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.587812] (ttt_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_ttt_msgs\n'}
+[4.617876] (-) TimerEvent: {}
+[4.718369] (-) TimerEvent: {}
+[4.818694] (-) TimerEvent: {}
+[4.919144] (-) TimerEvent: {}
+[4.920083] (ttt_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.921616] (ttt_msgs) StdoutLine: {'line': b'creating ttt_msgs.egg-info\n'}
+[4.945673] (ttt_msgs) StdoutLine: {'line': b'writing ttt_msgs.egg-info/PKG-INFO\n'}
+[4.946372] (ttt_msgs) StdoutLine: {'line': b'writing dependency_links to ttt_msgs.egg-info/dependency_links.txt\n'}
+[4.946593] (ttt_msgs) StdoutLine: {'line': b'writing top-level names to ttt_msgs.egg-info/top_level.txt\n'}
+[4.946771] (ttt_msgs) StdoutLine: {'line': b"writing manifest file 'ttt_msgs.egg-info/SOURCES.txt'\n"}
+[5.019242] (-) TimerEvent: {}
+[5.119636] (-) TimerEvent: {}
+[5.136302] (ttt_msgs) StdoutLine: {'line': b"reading manifest file 'ttt_msgs.egg-info/SOURCES.txt'\n"}
+[5.137295] (ttt_msgs) StdoutLine: {'line': b"writing manifest file 'ttt_msgs.egg-info/SOURCES.txt'\n"}
+[5.200635] (ttt_msgs) StdoutLine: {'line': b'[  1%] Built target ttt_msgs__rosidl_generator_type_description\n'}
+[5.218697] (ttt_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_ttt_msgs_egg\n'}
+[5.219036] (ttt_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.220023] (-) TimerEvent: {}
+[5.236788] (ttt_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.320218] (-) TimerEvent: {}
+[5.420598] (-) TimerEvent: {}
+[5.520918] (-) TimerEvent: {}
+[5.621233] (-) TimerEvent: {}
+[5.721539] (-) TimerEvent: {}
+[5.821852] (-) TimerEvent: {}
+[5.922157] (-) TimerEvent: {}
+[6.022452] (-) TimerEvent: {}
+[6.122746] (-) TimerEvent: {}
+[6.223044] (-) TimerEvent: {}
+[6.323366] (-) TimerEvent: {}
+[6.423678] (-) TimerEvent: {}
+[6.523974] (-) TimerEvent: {}
+[6.624312] (-) TimerEvent: {}
+[6.725204] (-) TimerEvent: {}
+[6.776524] (ttt_msgs) StdoutLine: {'line': b'[  4%] Built target ttt_msgs__cpp\n'}
+[6.825288] (-) TimerEvent: {}
+[6.925717] (-) TimerEvent: {}
+[7.026659] (-) TimerEvent: {}
+[7.043627] (ttt_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_c.dir/rosidl_generator_c/ttt_msgs/msg/detail/game_state__type_support.c.o\x1b[0m\n'}
+[7.045888] (ttt_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_c.dir/rosidl_generator_c/ttt_msgs/msg/detail/game_state__functions.c.o\x1b[0m\n'}
+[7.046272] (ttt_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_c.dir/rosidl_generator_c/ttt_msgs/msg/detail/move__description.c.o\x1b[0m\n'}
+[7.046433] (ttt_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_c.dir/rosidl_generator_c/ttt_msgs/msg/detail/game_state__description.c.o\x1b[0m\n'}
+[7.127510] (-) TimerEvent: {}
+[7.164837] (ttt_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_c.dir/rosidl_generator_c/ttt_msgs/msg/detail/move__functions.c.o\x1b[0m\n'}
+[7.191381] (ttt_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_c.dir/rosidl_generator_c/ttt_msgs/msg/detail/move__type_support.c.o\x1b[0m\n'}
+[7.193926] (ttt_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_c.dir/rosidl_generator_c/ttt_msgs/action/detail/draw_symbol__description.c.o\x1b[0m\n'}
+[7.230200] (-) TimerEvent: {}
+[7.248283] (ttt_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_c.dir/rosidl_generator_c/ttt_msgs/action/detail/draw_symbol__functions.c.o\x1b[0m\n'}
+[7.258496] (ttt_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_c.dir/rosidl_generator_c/ttt_msgs/action/detail/draw_symbol__type_support.c.o\x1b[0m\n'}
+[7.267946] (ttt_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_c.dir/rosidl_generator_c/ttt_msgs/action/detail/draw_grid__description.c.o\x1b[0m\n'}
+[7.330343] (-) TimerEvent: {}
+[7.351248] (ttt_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_c.dir/rosidl_generator_c/ttt_msgs/action/detail/draw_grid__functions.c.o\x1b[0m\n'}
+[7.395802] (ttt_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_c.dir/rosidl_generator_c/ttt_msgs/action/detail/draw_grid__type_support.c.o\x1b[0m\n'}
+[7.430474] (-) TimerEvent: {}
+[7.452015] (ttt_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_c.dir/rosidl_generator_c/ttt_msgs/action/detail/go_home__description.c.o\x1b[0m\n'}
+[7.497813] (ttt_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_c.dir/rosidl_generator_c/ttt_msgs/action/detail/go_home__functions.c.o\x1b[0m\n'}
+[7.530645] (-) TimerEvent: {}
+[7.631448] (-) TimerEvent: {}
+[7.709969] (ttt_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_c.dir/rosidl_generator_c/ttt_msgs/action/detail/go_home__type_support.c.o\x1b[0m\n'}
+[7.731595] (-) TimerEvent: {}
+[7.833367] (-) TimerEvent: {}
+[7.873125] (ttt_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libttt_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[7.933482] (-) TimerEvent: {}
+[8.033859] (-) TimerEvent: {}
+[8.134304] (-) TimerEvent: {}
+[8.234649] (-) TimerEvent: {}
+[8.251502] (ttt_msgs) StdoutLine: {'line': b'[ 25%] Built target ttt_msgs__rosidl_generator_c\n'}
+[8.275820] (ttt_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.276179] (ttt_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.276314] (ttt_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.276413] (ttt_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.337213] (-) TimerEvent: {}
+[8.437856] (-) TimerEvent: {}
+[8.538516] (-) TimerEvent: {}
+[8.639247] (-) TimerEvent: {}
+[8.742345] (-) TimerEvent: {}
+[8.843024] (-) TimerEvent: {}
+[8.943746] (-) TimerEvent: {}
+[9.044497] (-) TimerEvent: {}
+[9.145228] (-) TimerEvent: {}
+[9.248378] (-) TimerEvent: {}
+[9.303075] (ttt_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ttt_msgs/msg/game_state__type_support.cpp.o\x1b[0m\n'}
+[9.317973] (ttt_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ttt_msgs/msg/game_state__type_support.cpp.o\x1b[0m\n'}
+[9.348498] (-) TimerEvent: {}
+[9.434633] (ttt_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ttt_msgs/msg/move__type_support.cpp.o\x1b[0m\n'}
+[9.450401] (-) TimerEvent: {}
+[9.543202] (ttt_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ttt_msgs/action/draw_symbol__type_support.cpp.o\x1b[0m\n'}
+[9.550523] (-) TimerEvent: {}
+[9.653522] (-) TimerEvent: {}
+[9.687544] (ttt_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ttt_msgs/action/draw_grid__type_support.cpp.o\x1b[0m\n'}
+[9.692599] (ttt_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ttt_msgs/msg/detail/game_state__type_support.c.o\x1b[0m\n'}
+[9.753642] (-) TimerEvent: {}
+[9.786501] (ttt_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ttt_msgs/msg/detail/move__type_support.c.o\x1b[0m\n'}
+[9.816211] (ttt_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ttt_msgs/action/go_home__type_support.cpp.o\x1b[0m\n'}
+[9.853746] (-) TimerEvent: {}
+[9.872910] (ttt_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ttt_msgs/action/detail/draw_symbol__type_support.c.o\x1b[0m\n'}
+[9.937115] (ttt_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libttt_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.953887] (-) TimerEvent: {}
+[10.032922] (ttt_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ttt_msgs/action/detail/draw_grid__type_support.c.o\x1b[0m\n'}
+[10.057177] (-) TimerEvent: {}
+[10.073581] (ttt_msgs) StdoutLine: {'line': b'[ 45%] Built target ttt_msgs__rosidl_typesupport_c\n'}
+[10.103276] (ttt_msgs) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.157296] (-) TimerEvent: {}
+[10.163707] (ttt_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ttt_msgs/action/detail/go_home__type_support.c.o\x1b[0m\n'}
+[10.171630] (ttt_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ttt_msgs/msg/move__type_support.cpp.o\x1b[0m\n'}
+[10.257443] (-) TimerEvent: {}
+[10.303523] (ttt_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libttt_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.359190] (-) TimerEvent: {}
+[10.393432] (ttt_msgs) StdoutLine: {'line': b'[ 51%] Built target ttt_msgs__rosidl_typesupport_introspection_c\n'}
+[10.416182] (ttt_msgs) StdoutLine: {'line': b'[ 52%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[10.459306] (-) TimerEvent: {}
+[10.545264] (ttt_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ttt_msgs/msg/detail/game_state__type_support_c.cpp.o\x1b[0m\n'}
+[10.559434] (-) TimerEvent: {}
+[10.660177] (-) TimerEvent: {}
+[10.760838] (-) TimerEvent: {}
+[10.798050] (ttt_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ttt_msgs/action/draw_symbol__type_support.cpp.o\x1b[0m\n'}
+[10.860988] (-) TimerEvent: {}
+[10.961648] (-) TimerEvent: {}
+[11.064366] (-) TimerEvent: {}
+[11.165074] (-) TimerEvent: {}
+[11.265820] (-) TimerEvent: {}
+[11.366538] (-) TimerEvent: {}
+[11.468193] (-) TimerEvent: {}
+[11.481485] (ttt_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ttt_msgs/msg/detail/move__type_support_c.cpp.o\x1b[0m\n'}
+[11.568315] (-) TimerEvent: {}
+[11.668825] (-) TimerEvent: {}
+[11.769490] (-) TimerEvent: {}
+[11.854149] (ttt_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ttt_msgs/msg/detail/game_state__type_support.cpp.o\x1b[0m\n'}
+[11.869624] (-) TimerEvent: {}
+[11.973562] (-) TimerEvent: {}
+[12.074213] (-) TimerEvent: {}
+[12.175046] (-) TimerEvent: {}
+[12.230882] (ttt_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ttt_msgs/action/draw_grid__type_support.cpp.o\x1b[0m\n'}
+[12.275193] (-) TimerEvent: {}
+[12.336794] (ttt_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ttt_msgs/msg/detail/dds_fastrtps/game_state__type_support.cpp.o\x1b[0m\n'}
+[12.375392] (-) TimerEvent: {}
+[12.439367] (ttt_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ttt_msgs/action/detail/draw_symbol__type_support_c.cpp.o\x1b[0m\n'}
+[12.475523] (-) TimerEvent: {}
+[12.513835] (ttt_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ttt_msgs/msg/detail/move__type_support.cpp.o\x1b[0m\n'}
+[12.575672] (-) TimerEvent: {}
+[12.680930] (-) TimerEvent: {}
+[12.781754] (-) TimerEvent: {}
+[12.887228] (-) TimerEvent: {}
+[12.987689] (-) TimerEvent: {}
+[13.088346] (-) TimerEvent: {}
+[13.133375] (ttt_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ttt_msgs/action/detail/draw_symbol__type_support.cpp.o\x1b[0m\n'}
+[13.188473] (-) TimerEvent: {}
+[13.289088] (-) TimerEvent: {}
+[13.313303] (ttt_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ttt_msgs/msg/detail/dds_fastrtps/move__type_support.cpp.o\x1b[0m\n'}
+[13.389217] (-) TimerEvent: {}
+[13.490458] (-) TimerEvent: {}
+[13.592444] (-) TimerEvent: {}
+[13.681151] (ttt_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ttt_msgs/action/go_home__type_support.cpp.o\x1b[0m\n'}
+[13.695208] (-) TimerEvent: {}
+[13.738780] (ttt_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ttt_msgs/action/detail/draw_grid__type_support_c.cpp.o\x1b[0m\n'}
+[13.795325] (-) TimerEvent: {}
+[13.895714] (-) TimerEvent: {}
+[13.996262] (-) TimerEvent: {}
+[14.098444] (-) TimerEvent: {}
+[14.198948] (-) TimerEvent: {}
+[14.268590] (ttt_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ttt_msgs/action/detail/dds_fastrtps/draw_symbol__type_support.cpp.o\x1b[0m\n'}
+[14.299170] (-) TimerEvent: {}
+[14.402589] (-) TimerEvent: {}
+[14.503388] (-) TimerEvent: {}
+[14.604326] (-) TimerEvent: {}
+[14.683198] (ttt_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ttt_msgs/action/detail/draw_grid__type_support.cpp.o\x1b[0m\n'}
+[14.704463] (-) TimerEvent: {}
+[14.805186] (-) TimerEvent: {}
+[14.905866] (-) TimerEvent: {}
+[15.006758] (-) TimerEvent: {}
+[15.110649] (-) TimerEvent: {}
+[15.114043] (ttt_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ttt_msgs/action/detail/go_home__type_support_c.cpp.o\x1b[0m\n'}
+[15.210792] (-) TimerEvent: {}
+[15.283882] (ttt_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libttt_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[15.310942] (-) TimerEvent: {}
+[15.411802] (-) TimerEvent: {}
+[15.510756] (ttt_msgs) StdoutLine: {'line': b'[ 74%] Built target ttt_msgs__rosidl_typesupport_cpp\n'}
+[15.511936] (-) TimerEvent: {}
+[15.535200] (ttt_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ttt_msgs/action/detail/dds_fastrtps/draw_grid__type_support.cpp.o\x1b[0m\n'}
+[15.612078] (-) TimerEvent: {}
+[15.712734] (-) TimerEvent: {}
+[15.816548] (-) TimerEvent: {}
+[15.917208] (-) TimerEvent: {}
+[16.017894] (-) TimerEvent: {}
+[16.118590] (-) TimerEvent: {}
+[16.219311] (-) TimerEvent: {}
+[16.319976] (-) TimerEvent: {}
+[16.353219] (ttt_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ttt_msgs/action/detail/go_home__type_support.cpp.o\x1b[0m\n'}
+[16.420127] (-) TimerEvent: {}
+[16.464274] (ttt_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libttt_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[16.520270] (-) TimerEvent: {}
+[16.567541] (ttt_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/ttt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ttt_msgs/action/detail/dds_fastrtps/go_home__type_support.cpp.o\x1b[0m\n'}
+[16.620409] (-) TimerEvent: {}
+[16.675137] (ttt_msgs) StdoutLine: {'line': b'[ 79%] Built target ttt_msgs__rosidl_typesupport_fastrtps_c\n'}
+[16.721215] (-) TimerEvent: {}
+[16.821631] (-) TimerEvent: {}
+[16.922273] (-) TimerEvent: {}
+[17.023190] (-) TimerEvent: {}
+[17.124130] (-) TimerEvent: {}
+[17.225070] (-) TimerEvent: {}
+[17.325960] (-) TimerEvent: {}
+[17.426869] (-) TimerEvent: {}
+[17.527688] (-) TimerEvent: {}
+[17.628440] (-) TimerEvent: {}
+[17.728892] (-) TimerEvent: {}
+[17.742622] (ttt_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libttt_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[17.829043] (-) TimerEvent: {}
+[17.929700] (-) TimerEvent: {}
+[17.932933] (ttt_msgs) StdoutLine: {'line': b'[ 81%] Built target ttt_msgs__rosidl_typesupport_introspection_cpp\n'}
+[18.029823] (-) TimerEvent: {}
+[18.130178] (-) TimerEvent: {}
+[18.230545] (-) TimerEvent: {}
+[18.317655] (ttt_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libttt_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[18.330665] (-) TimerEvent: {}
+[18.431059] (-) TimerEvent: {}
+[18.505650] (ttt_msgs) StdoutLine: {'line': b'[ 82%] Built target ttt_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[18.531196] (-) TimerEvent: {}
+[18.542998] (ttt_msgs) StdoutLine: {'line': b'[ 82%] Built target ttt_msgs\n'}
+[18.578810] (ttt_msgs) StdoutLine: {'line': b'[ 83%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[18.631291] (-) TimerEvent: {}
+[18.731605] (-) TimerEvent: {}
+[18.831927] (-) TimerEvent: {}
+[18.932252] (-) TimerEvent: {}
+[19.032576] (-) TimerEvent: {}
+[19.132895] (-) TimerEvent: {}
+[19.233192] (-) TimerEvent: {}
+[19.333486] (-) TimerEvent: {}
+[19.433789] (-) TimerEvent: {}
+[19.534084] (-) TimerEvent: {}
+[19.634406] (-) TimerEvent: {}
+[19.734695] (-) TimerEvent: {}
+[19.834989] (-) TimerEvent: {}
+[19.935286] (-) TimerEvent: {}
+[20.035577] (-) TimerEvent: {}
+[20.135871] (-) TimerEvent: {}
+[20.236163] (-) TimerEvent: {}
+[20.336455] (-) TimerEvent: {}
+[20.436762] (-) TimerEvent: {}
+[20.537081] (-) TimerEvent: {}
+[20.637422] (-) TimerEvent: {}
+[20.737742] (-) TimerEvent: {}
+[20.838028] (-) TimerEvent: {}
+[20.938317] (-) TimerEvent: {}
+[21.038604] (-) TimerEvent: {}
+[21.138927] (-) TimerEvent: {}
+[21.226637] (ttt_msgs) StdoutLine: {'line': b'[ 83%] Built target ttt_msgs__py\n'}
+[21.239053] (-) TimerEvent: {}
+[21.263915] (ttt_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_py.dir/rosidl_generator_py/ttt_msgs/action/_draw_grid_s.c.o\x1b[0m\n'}
+[21.266506] (ttt_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_py.dir/rosidl_generator_py/ttt_msgs/action/_draw_symbol_s.c.o\x1b[0m\n'}
+[21.266838] (ttt_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_py.dir/rosidl_generator_py/ttt_msgs/msg/_move_s.c.o\x1b[0m\n'}
+[21.266944] (ttt_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_py.dir/rosidl_generator_py/ttt_msgs/msg/_game_state_s.c.o\x1b[0m\n'}
+[21.339193] (-) TimerEvent: {}
+[21.439926] (-) TimerEvent: {}
+[21.543272] (-) TimerEvent: {}
+[21.598549] (ttt_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs__rosidl_generator_py.dir/rosidl_generator_py/ttt_msgs/action/_go_home_s.c.o\x1b[0m\n'}
+[21.643409] (-) TimerEvent: {}
+[21.744017] (-) TimerEvent: {}
+[21.844413] (-) TimerEvent: {}
+[21.923232] (ttt_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library libttt_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[21.944530] (-) TimerEvent: {}
+[22.026654] (ttt_msgs) StdoutLine: {'line': b'[ 91%] Built target ttt_msgs__rosidl_generator_py\n'}
+[22.044653] (-) TimerEvent: {}
+[22.066501] (ttt_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ttt_msgs/_ttt_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[22.066982] (ttt_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ttt_msgs/_ttt_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[22.067149] (ttt_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/ttt_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/ttt_msgs/_ttt_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[22.144781] (-) TimerEvent: {}
+[22.245205] (-) TimerEvent: {}
+[22.345649] (-) TimerEvent: {}
+[22.400982] (ttt_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ttt_msgs/ttt_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[22.407266] (ttt_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ttt_msgs/ttt_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[22.447293] (-) TimerEvent: {}
+[22.466036] (ttt_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ttt_msgs/ttt_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[22.467725] (ttt_msgs) StdoutLine: {'line': b'[100%] Built target ttt_msgs_s__rosidl_typesupport_introspection_c\n'}
+[22.473591] (ttt_msgs) StdoutLine: {'line': b'[100%] Built target ttt_msgs_s__rosidl_typesupport_c\n'}
+[22.526730] (ttt_msgs) StdoutLine: {'line': b'[100%] Built target ttt_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[22.547407] (-) TimerEvent: {}
+[22.549577] (ttt_msgs) CommandEnded: {'returncode': 0}
+[22.550480] (ttt_msgs) JobProgress: {'identifier': 'ttt_msgs', 'progress': 'install'}
+[22.550830] (ttt_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shai/ros2_ttt_robot/build/ttt_msgs'], 'cwd': '/home/shai/ros2_ttt_robot/build/ttt_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shai', 'SSH_CLIENT': '2a00:c281:1438:df00:3506:da47:e870:8b93 54702 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shai', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/shai/ros2_ttt_robot/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', '_CONDA_ROOT': '/home/shai/miniconda3', 'COLCON_PREFIX_PATH': '/home/shai/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shai', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '557', '_CE_CONDA': '', 'PATH': '/home/shai/miniconda3/condabin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/shai/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', '_CONDA_EXE': '/home/shai/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shai/ros2_ttt_robot/build/ttt_msgs', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/home/shai/miniconda3/bin/conda', 'SSH_CONNECTION': '2a00:c281:1438:df00:3506:da47:e870:8b93 54702 2a00:c281:1438:df00:2ecf:67ff:fe84:5ff1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shai/ros2_ws/install/stepper_driver/lib/python3.12/site-packages:/home/shai/ros2_ws/install/poti_serial/lib/python3.12/site-packages:/home/shai/ros2_ws/install/poti_mapper/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/shai/ros2_ws/install/stepper_driver:/home/shai/ros2_ws/install/poti_serial:/home/shai/ros2_ws/install/poti_mapper:/opt/ros/jazzy'}), 'shell': False}
+[22.567228] (ttt_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.585830] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ament_index/resource_index/rosidl_interfaces/ttt_msgs\n'}
+[22.586253] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/msg/GameState.json\n'}
+[22.586563] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/msg/Move.json\n'}
+[22.586874] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/action/DrawSymbol.json\n'}
+[22.587173] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/action/DrawGrid.json\n'}
+[22.587492] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/action/GoHome.json\n'}
+[22.587750] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs\n'}
+[22.587998] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg\n'}
+[22.588172] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/move.h\n'}
+[22.588381] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail\n'}
+[22.588565] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/game_state__functions.h\n'}
+[22.588778] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/move__struct.h\n'}
+[22.588987] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/game_state__struct.h\n'}
+[22.589216] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/move__type_support.h\n'}
+[22.589414] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/move__functions.c\n'}
+[22.589592] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/move__type_support.c\n'}
+[22.589785] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/game_state__description.c\n'}
+[22.589989] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/game_state__functions.c\n'}
+[22.590180] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/game_state__type_support.h\n'}
+[22.590393] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/move__description.c\n'}
+[22.590584] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/game_state__type_support.c\n'}
+[22.590798] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/move__functions.h\n'}
+[22.591010] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[22.591218] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/game_state.h\n'}
+[22.591430] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action\n'}
+[22.591627] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/draw_symbol.h\n'}
+[22.591778] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail\n'}
+[22.591923] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_grid__type_support.h\n'}
+[22.592071] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_symbol__functions.c\n'}
+[22.592428] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_grid__description.c\n'}
+[22.592708] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_symbol__functions.h\n'}
+[22.593015] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/go_home__type_support.h\n'}
+[22.593215] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_symbol__description.c\n'}
+[22.593505] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/go_home__description.c\n'}
+[22.593788] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_grid__functions.c\n'}
+[22.594105] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/go_home__type_support.c\n'}
+[22.594289] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_grid__functions.h\n'}
+[22.594595] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_grid__type_support.c\n'}
+[22.594782] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_grid__struct.h\n'}
+[22.594961] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_symbol__struct.h\n'}
+[22.595156] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/go_home__struct.h\n'}
+[22.595341] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/go_home__functions.c\n'}
+[22.595669] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/go_home__functions.h\n'}
+[22.595980] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_symbol__type_support.h\n'}
+[22.596161] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_symbol__type_support.c\n'}
+[22.596357] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/go_home.h\n'}
+[22.596520] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/draw_grid.h\n'}
+[22.596880] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/environment/library_path.sh\n'}
+[22.597101] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/environment/library_path.dsv\n'}
+[22.597433] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/libttt_msgs__rosidl_generator_c.so\n'}
+[22.598859] (ttt_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/libttt_msgs__rosidl_generator_c.so" to ""\n'}
+[22.599040] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs\n'}
+[22.599221] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg\n'}
+[22.599344] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[22.599504] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail\n'}
+[22.599631] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/move__rosidl_typesupport_fastrtps_c.h\n'}
+[22.600224] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/game_state__rosidl_typesupport_fastrtps_c.h\n'}
+[22.600455] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action\n'}
+[22.600580] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail\n'}
+[22.600693] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_grid__rosidl_typesupport_fastrtps_c.h\n'}
+[22.600810] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_symbol__rosidl_typesupport_fastrtps_c.h\n'}
+[22.600955] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/go_home__rosidl_typesupport_fastrtps_c.h\n'}
+[22.601064] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/libttt_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[22.601890] (ttt_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/libttt_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[22.602088] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs\n'}
+[22.602209] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg\n'}
+[22.602347] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail\n'}
+[22.602442] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/move__rosidl_typesupport_introspection_c.h\n'}
+[22.602532] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/move__type_support.c\n'}
+[22.602649] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/game_state__rosidl_typesupport_introspection_c.h\n'}
+[22.602760] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/game_state__type_support.c\n'}
+[22.602864] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[22.602990] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action\n'}
+[22.603079] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail\n'}
+[22.603181] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/go_home__type_support.c\n'}
+[22.603305] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/go_home__rosidl_typesupport_introspection_c.h\n'}
+[22.603419] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_grid__type_support.c\n'}
+[22.603653] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_grid__rosidl_typesupport_introspection_c.h\n'}
+[22.603798] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_symbol__rosidl_typesupport_introspection_c.h\n'}
+[22.603924] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_symbol__type_support.c\n'}
+[22.604323] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/libttt_msgs__rosidl_typesupport_introspection_c.so\n'}
+[22.605307] (ttt_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/libttt_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[22.605427] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/libttt_msgs__rosidl_typesupport_c.so\n'}
+[22.606126] (ttt_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/libttt_msgs__rosidl_typesupport_c.so" to ""\n'}
+[22.606265] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs\n'}
+[22.606388] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg\n'}
+[22.606522] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail\n'}
+[22.606614] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/game_state__builder.hpp\n'}
+[22.606737] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/move__struct.hpp\n'}
+[22.606821] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/move__traits.hpp\n'}
+[22.606933] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/move__type_support.hpp\n'}
+[22.607057] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/game_state__traits.hpp\n'}
+[22.607161] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/move__builder.hpp\n'}
+[22.607277] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/game_state__type_support.hpp\n'}
+[22.607391] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/game_state__struct.hpp\n'}
+[22.607521] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[22.607632] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/move.hpp\n'}
+[22.607741] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/game_state.hpp\n'}
+[22.607844] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action\n'}
+[22.607942] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/go_home.hpp\n'}
+[22.608071] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail\n'}
+[22.608205] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_grid__traits.hpp\n'}
+[22.608314] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_grid__struct.hpp\n'}
+[22.608512] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/go_home__traits.hpp\n'}
+[22.608678] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_symbol__struct.hpp\n'}
+[22.608871] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_symbol__type_support.hpp\n'}
+[22.609014] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/go_home__struct.hpp\n'}
+[22.609214] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_grid__builder.hpp\n'}
+[22.609364] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_grid__type_support.hpp\n'}
+[22.609494] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/go_home__builder.hpp\n'}
+[22.609640] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/go_home__type_support.hpp\n'}
+[22.609774] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_symbol__traits.hpp\n'}
+[22.609955] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_symbol__builder.hpp\n'}
+[22.610110] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/draw_symbol.hpp\n'}
+[22.610249] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/draw_grid.hpp\n'}
+[22.610458] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs\n'}
+[22.610581] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg\n'}
+[22.610676] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail\n'}
+[22.610796] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/move__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.610887] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/game_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.611001] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/dds_fastrtps\n'}
+[22.611085] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[22.611215] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action\n'}
+[22.611319] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail\n'}
+[22.611400] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_symbol__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.611507] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/go_home__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.611605] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_grid__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.611775] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/dds_fastrtps\n'}
+[22.612019] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/libttt_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[22.614388] (ttt_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/libttt_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[22.614848] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs\n'}
+[22.614956] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg\n'}
+[22.615048] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail\n'}
+[22.615145] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/game_state__type_support.cpp\n'}
+[22.615297] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/move__type_support.cpp\n'}
+[22.615380] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/game_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.615463] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/msg/detail/move__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.615550] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action\n'}
+[22.615659] (ttt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail\n'}
+[22.615759] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/go_home__type_support.cpp\n'}
+[22.615868] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_symbol__type_support.cpp\n'}
+[22.615955] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_grid__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.616066] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/go_home__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.616226] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_grid__type_support.cpp\n'}
+[22.616404] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/include/ttt_msgs/ttt_msgs/action/detail/draw_symbol__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.616555] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/libttt_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[22.618407] (ttt_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/libttt_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[22.618542] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/libttt_msgs__rosidl_typesupport_cpp.so\n'}
+[22.619935] (ttt_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/libttt_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[22.620085] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/environment/pythonpath.sh\n'}
+[22.620213] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/environment/pythonpath.dsv\n'}
+[22.620382] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs-0.0.0-py3.12.egg-info\n'}
+[22.620559] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[22.620696] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[22.620820] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[22.620940] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[22.621119] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs\n'}
+[22.621240] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/ttt_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[22.621544] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/_ttt_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[22.621945] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/ttt_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[22.622233] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/msg\n'}
+[22.622356] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/msg/_game_state_s.c\n'}
+[22.622481] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/msg/_game_state.py\n'}
+[22.622618] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/msg/_move_s.c\n'}
+[22.622742] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/msg/__init__.py\n'}
+[22.622882] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/msg/_move.py\n'}
+[22.623014] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/_ttt_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[22.623419] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/__init__.py\n'}
+[22.623559] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/action\n'}
+[22.623672] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/action/_go_home.py\n'}
+[22.623890] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/action/_draw_symbol.py\n'}
+[22.624136] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/action/_draw_grid_s.c\n'}
+[22.624337] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/action/_draw_symbol_s.c\n'}
+[22.624538] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/action/_draw_grid.py\n'}
+[22.624772] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/action/__init__.py\n'}
+[22.624900] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/action/_go_home_s.c\n'}
+[22.625106] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/_ttt_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[22.625507] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/ttt_msgs_s__rosidl_typesupport_c.so\n'}
+[22.647494] (-) TimerEvent: {}
+[22.731533] (ttt_msgs) StdoutLine: {'line': b"Listing '/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs'...\n"}
+[22.731823] (ttt_msgs) StdoutLine: {'line': b"Compiling '/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/__init__.py'...\n"}
+[22.731929] (ttt_msgs) StdoutLine: {'line': b"Listing '/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/action'...\n"}
+[22.732026] (ttt_msgs) StdoutLine: {'line': b"Compiling '/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/action/__init__.py'...\n"}
+[22.732176] (ttt_msgs) StdoutLine: {'line': b"Compiling '/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/action/_draw_grid.py'...\n"}
+[22.732287] (ttt_msgs) StdoutLine: {'line': b"Compiling '/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/action/_draw_symbol.py'...\n"}
+[22.732379] (ttt_msgs) StdoutLine: {'line': b"Compiling '/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/action/_go_home.py'...\n"}
+[22.732466] (ttt_msgs) StdoutLine: {'line': b"Listing '/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/msg'...\n"}
+[22.732552] (ttt_msgs) StdoutLine: {'line': b"Compiling '/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/msg/__init__.py'...\n"}
+[22.732636] (ttt_msgs) StdoutLine: {'line': b"Compiling '/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/msg/_game_state.py'...\n"}
+[22.732726] (ttt_msgs) StdoutLine: {'line': b"Compiling '/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/msg/_move.py'...\n"}
+[22.743948] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/ttt_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[22.744566] (ttt_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/ttt_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[22.744934] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/ttt_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[22.745543] (ttt_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/ttt_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[22.745885] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/ttt_msgs_s__rosidl_typesupport_c.so\n'}
+[22.746495] (ttt_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/python3.12/site-packages/ttt_msgs/ttt_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[22.746629] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/lib/libttt_msgs__rosidl_generator_py.so\n'}
+[22.747479] (ttt_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shai/ros2_ttt_robot/install/ttt_msgs/lib/libttt_msgs__rosidl_generator_py.so" to ""\n'}
+[22.747681] (-) TimerEvent: {}
+[22.747816] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/msg/GameState.idl\n'}
+[22.747935] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/msg/Move.idl\n'}
+[22.748069] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/action/DrawSymbol.idl\n'}
+[22.748198] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/action/DrawGrid.idl\n'}
+[22.748312] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/action/GoHome.idl\n'}
+[22.748477] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/msg/GameState.msg\n'}
+[22.748631] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/msg/Move.msg\n'}
+[22.748807] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/action/DrawSymbol.action\n'}
+[22.748957] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/action/DrawGrid.action\n'}
+[22.749120] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/action/GoHome.action\n'}
+[22.749366] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ament_index/resource_index/package_run_dependencies/ttt_msgs\n'}
+[22.749603] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ament_index/resource_index/parent_prefix_path/ttt_msgs\n'}
+[22.749785] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/environment/ament_prefix_path.sh\n'}
+[22.749975] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/environment/ament_prefix_path.dsv\n'}
+[22.750139] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/environment/path.sh\n'}
+[22.750324] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/environment/path.dsv\n'}
+[22.750486] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/local_setup.bash\n'}
+[22.750656] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/local_setup.sh\n'}
+[22.750826] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/local_setup.zsh\n'}
+[22.750992] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/local_setup.dsv\n'}
+[22.751164] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/package.dsv\n'}
+[22.751422] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ament_index/resource_index/packages/ttt_msgs\n'}
+[22.751660] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/export_ttt_msgs__rosidl_generator_cExport.cmake\n'}
+[22.751856] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/export_ttt_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[22.752049] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/export_ttt_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[22.752244] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/export_ttt_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[22.752433] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/ttt_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[22.752613] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/ttt_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[22.752813] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/ttt_msgs__rosidl_typesupport_cExport.cmake\n'}
+[22.753000] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/ttt_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[22.753199] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/export_ttt_msgs__rosidl_generator_cppExport.cmake\n'}
+[22.753405] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/export_ttt_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[22.753586] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/export_ttt_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[22.753778] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/ttt_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[22.753966] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/ttt_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[22.754171] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/ttt_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[22.754368] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/ttt_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[22.754558] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/export_ttt_msgs__rosidl_generator_pyExport.cmake\n'}
+[22.754727] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/export_ttt_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[22.754896] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[22.755065] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.755277] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.755447] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.755624] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[22.755801] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[22.755973] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[22.756180] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/ttt_msgsConfig.cmake\n'}
+[22.756325] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/cmake/ttt_msgsConfig-version.cmake\n'}
+[22.756504] (ttt_msgs) StdoutLine: {'line': b'-- Installing: /home/shai/ros2_ttt_robot/install/ttt_msgs/share/ttt_msgs/package.xml\n'}
+[22.760001] (ttt_msgs) CommandEnded: {'returncode': 0}
+[22.792092] (ttt_msgs) JobEnded: {'identifier': 'ttt_msgs', 'rc': 0}
+[22.793306] (-) EventReactorShutdown: {}

@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ttt_msgs/action/DrawSymbol.action
+// generated code does not contain a copyright notice
+
+
+module ttt_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct DrawSymbol_Goal {
+      uint8 cell_index;
+
+      @verbatim (language="comment", text=
+        "1 = X, 2 = O")
+      int8 symbol;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct DrawSymbol_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct DrawSymbol_Feedback {
+      @verbatim (language="comment", text=
+        "0.0 .. 1.0")
+      float progress;
+    };
+  };
+};

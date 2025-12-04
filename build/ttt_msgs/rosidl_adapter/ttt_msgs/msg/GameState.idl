@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ttt_msgs/msg/GameState.msg
+// generated code does not contain a copyright notice
+
+
+module ttt_msgs {
+  module msg {
+    typedef int8 int8__9[9];
+    @verbatim (language="comment", text=
+      "0 = empty, 1 = X, 2 = O")
+    struct GameState {
+      int8__9 cells;
+
+      @verbatim (language="comment", text=
+        "1 = X, 2 = O")
+      int8 current_player;
+
+      @verbatim (language="comment", text=
+        "0 = ongoing, 1 = X_wins, 2 = O_wins, 3 = draw")
+      int8 status;
+    };
+  };
+};

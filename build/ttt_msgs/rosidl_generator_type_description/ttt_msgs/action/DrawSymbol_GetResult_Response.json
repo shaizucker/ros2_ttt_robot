@@ -1,0 +1,66 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ttt_msgs/action/DrawSymbol_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ttt_msgs/action/DrawSymbol_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "ttt_msgs/action/DrawSymbol_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "message",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "ttt_msgs/action/DrawSymbol_GetResult_Response",
+      "hash_string": "RIHS01_fd9a96c6cf58f6ad9166f403ccac93c8772136d90b8df3a49798406d05710552"
+    },
+    {
+      "type_name": "ttt_msgs/action/DrawSymbol_Result",
+      "hash_string": "RIHS01_daab39d86131e0a233676cc8869cf4cf18654ebcf1d8cedb37d030d39e4ad8c5"
+    }
+  ]
+}

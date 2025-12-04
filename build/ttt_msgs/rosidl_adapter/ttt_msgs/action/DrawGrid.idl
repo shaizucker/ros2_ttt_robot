@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ttt_msgs/action/DrawGrid.action
+// generated code does not contain a copyright notice
+
+
+module ttt_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal" "\n"
+      "(empty)")
+    struct DrawGrid_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct DrawGrid_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct DrawGrid_Feedback {
+      @verbatim (language="comment", text=
+        "0.0 .. 1.0")
+      float progress;
+    };
+  };
+};

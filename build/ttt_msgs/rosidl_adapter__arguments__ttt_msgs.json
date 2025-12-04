@@ -1,0 +1,10 @@
+{
+  "package_name": "ttt_msgs",
+  "non_idl_tuples": [
+    "/home/shai/ros2_ttt_robot/src/ttt_msgs:msg/GameState.msg",
+    "/home/shai/ros2_ttt_robot/src/ttt_msgs:msg/Move.msg",
+    "/home/shai/ros2_ttt_robot/src/ttt_msgs:action/DrawSymbol.action",
+    "/home/shai/ros2_ttt_robot/src/ttt_msgs:action/DrawGrid.action",
+    "/home/shai/ros2_ttt_robot/src/ttt_msgs:action/GoHome.action"
+  ]
+}

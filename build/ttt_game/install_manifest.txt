@@ -1,0 +1,15 @@
+/home/shai/ros2_ttt_robot/install/ttt_game/share/ament_index/resource_index/package_run_dependencies/ttt_game
+/home/shai/ros2_ttt_robot/install/ttt_game/share/ament_index/resource_index/parent_prefix_path/ttt_game
+/home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/environment/ament_prefix_path.sh
+/home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/environment/ament_prefix_path.dsv
+/home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/environment/path.sh
+/home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/environment/path.dsv
+/home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/local_setup.bash
+/home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/local_setup.sh
+/home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/local_setup.zsh
+/home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/local_setup.dsv
+/home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/package.dsv
+/home/shai/ros2_ttt_robot/install/ttt_game/share/ament_index/resource_index/packages/ttt_game
+/home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/cmake/ttt_gameConfig.cmake
+/home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/cmake/ttt_gameConfig-version.cmake
+/home/shai/ros2_ttt_robot/install/ttt_game/share/ttt_game/package.xml
