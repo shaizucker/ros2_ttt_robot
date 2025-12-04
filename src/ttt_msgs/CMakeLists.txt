@@ -18,7 +18,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/DrawSymbol.action"
   "action/DrawGrid.action"
   "action/GoHome.action"
+  "srv/ComputeIK.srv"
 )
+
 
 ament_export_dependencies(rosidl_default_runtime)
 ament_package()

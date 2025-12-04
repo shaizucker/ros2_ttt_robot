@@ -1,0 +1,10 @@
+float32 x
+float32 y
+---
+bool success
+float32 left_shoulder
+float32 left_elbow
+float32 right_shoulder
+float32 right_elbow
+string message
+

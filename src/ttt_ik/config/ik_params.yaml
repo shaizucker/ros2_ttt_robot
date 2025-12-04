@@ -1,0 +1,6 @@
+ik_server:
+  ros__parameters:
+    link1_length_cm: 14.0
+    link2_length_cm: 15.0
+    base_distance_cm: 16.0
+
